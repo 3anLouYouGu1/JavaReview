@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T07:57:44.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dNXL9dX9CFoKEHqSQ3el" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T08:08:28.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZcyZ7dGJk92P7N9aZguz" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BC9mfGLHjs254Yc_NBkA">
-    <mxGraphModel dx="2049" dy="3070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1820" dy="2933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="660" height="660" as="geometry" />
+        </mxCell>
         <mxCell id="AZQi2X3Uj84bDym_xN_N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="AZQi2X3Uj84bDym_xN_N-1" target="AZQi2X3Uj84bDym_xN_N-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -173,20 +176,14 @@
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-9" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="380" y="640" width="60" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="216" y="770" width="510" height="510" as="geometry" />
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-11" value="堆" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=top;spacingTop=10;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="830" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-11" value="堆" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
-          <mxGeometry x="250" y="800" width="220" height="140" as="geometry" />
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.854;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="bFAcm-cgaIlaeBw3B-Ac-13" target="bFAcm-cgaIlaeBw3B-Ac-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-12" value="线程栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="280" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-13" value="方法区" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
-          <mxGeometry x="470" y="800" width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-14" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-13" value="方法区" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=top;spacingTop=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="400" y="830" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="bFAcm-cgaIlaeBw3B-Ac-15" target="bFAcm-cgaIlaeBw3B-Ac-17">
           <mxGeometry relative="1" as="geometry">
@@ -194,16 +191,70 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-15" value="字符串常量池" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="280" y="870" width="160" height="60" as="geometry" />
+          <mxGeometry x="210" y="900" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-16" value="运行时常量池" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="500" y="870" width="160" height="60" as="geometry" />
+          <mxGeometry x="430" y="880" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;import java.util.ArrayList;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;import java.util.List;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;public class StringOomMock {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; static String&amp;nbsp; base = &quot;string&quot;;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; public static void main(String[] args) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; List&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;String&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int i=0;i&amp;lt; Integer.MAX_VALUE;i++){&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String str = base + base;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; base = str;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; list.add(str.intern());&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="680" width="490" height="440" as="geometry" />
+          <mxGeometry x="-820" y="710" width="490" height="440" as="geometry" />
         </mxCell>
         <mxCell id="bFAcm-cgaIlaeBw3B-Ac-22" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;可通过代码验证，jdk1.7之后，字符串常量池已从永久区转移到堆中&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="830" width="340" height="60" as="geometry" />
+          <mxGeometry x="-280" y="850" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-24" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;class&lt;/font&gt;常量池" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="430" y="920" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="195" y="990" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-26" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-36">
+          <mxGeometry width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-12" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-36">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-14" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-36">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-25" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-36">
+          <mxGeometry x="30" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-27" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-36">
+          <mxGeometry x="60" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="990" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-38" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-37">
+          <mxGeometry width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-39" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-37">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-40" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-37">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-41" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-37">
+          <mxGeometry x="30" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-42" value="线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="bFAcm-cgaIlaeBw3B-Ac-37">
+          <mxGeometry x="60" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-43" value="本地内存" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1330" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="bFAcm-cgaIlaeBw3B-Ac-44" target="bFAcm-cgaIlaeBw3B-Ac-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-44" value="直接内存" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-46" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;NIO机制直接堆外分配内存，这样能在一些场景中提高性能，因为避免了在Java堆和Native堆中来回复制数据。&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;关联部分NIO&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1295" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bFAcm-cgaIlaeBw3B-Ac-50" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;JDK1.8之后，变更为元空间，放置在本地内存中&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="640" y="900" width="170" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
