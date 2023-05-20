@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T01:10:06.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="R-nGe6SjGMvUXruNdQg4" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T01:40:49.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Nj1s15FCwGfNw9et89qO" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BC9mfGLHjs254Yc_NBkA">
-    <mxGraphModel dx="794" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="AZQi2X3Uj84bDym_xN_N-1" target="AZQi2X3Uj84bDym_xN_N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="AZQi2X3Uj84bDym_xN_N-1" target="AZQi2X3Uj84bDym_xN_N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="AZQi2X3Uj84bDym_xN_N-1" target="AZQi2X3Uj84bDym_xN_N-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-1" value="JVM" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-4" value="类加载器" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-6" value="执行引擎和垃圾回收机制" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-8" value="运行时数据区" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="AZQi2X3Uj84bDym_xN_N-10" target="AZQi2X3Uj84bDym_xN_N-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-10" value="类加载器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AZQi2X3Uj84bDym_xN_N-4" target="AZQi2X3Uj84bDym_xN_N-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="370" as="sourcePoint" />
+            <mxPoint x="660" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="280" />
+              <mxPoint x="720" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Bootstrap Class Loader&lt;/font&gt; -&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;%JAVA_HOME%/lib目录下的rt.jar、resources.jar、charsets.jar的jar包和类&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-Xbootclasspath参数指定路径的所有类&lt;/span&gt;&lt;/blockquote&gt;&lt;font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Extension Class Loader &lt;/font&gt;-&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font&gt;&lt;div&gt;%JRE_HOME%/lib/ext下的jar包和类&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font&gt;&lt;div&gt;java.ext.dirs系统变量指定路径的所有类&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font&gt;&lt;div&gt;Java9更改为Platform Class Loader&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Application Class Loader &lt;/font&gt;-&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;classpath中jar包和类&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Custom Class Loader&lt;/font&gt; -&amp;gt; 自定义的classloader&lt;/div&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Comic Sans MS;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="990" y="60" width="840" height="380" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
