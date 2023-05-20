@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T01:57:13.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lUiWtI9i7tfIaigN55Ko" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T03:08:28.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="p1qvRzo9rO_bw8F0BYx2" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BC9mfGLHjs254Yc_NBkA">
     <mxGraphModel dx="1134" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="AZQi2X3Uj84bDym_xN_N-29" value="空闲列表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="AZQi2X3Uj84bDym_xN_N-27">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AZQi2X3Uj84bDym_xN_N-31" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;由垃圾回收机制是否带有压缩判断&lt;br&gt;并发时&lt;br&gt;-&amp;gt; CAS+失败重试&lt;br&gt;-&amp;gt; TLAB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="911" y="-210" width="330" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
