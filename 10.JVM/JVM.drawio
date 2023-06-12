@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T15:23:59.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_d_jnTWEOMucz7EQijUu" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T15:28:04.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9eFOSNZSO3ykMhlN9lDL" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BC9mfGLHjs254Yc_NBkA">
     <mxGraphModel dx="6761" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,6 +697,14 @@
         <mxCell id="KhyyGNtIl1cw1HzKV6B6-67" value="黑：被标记且引用对象也被标记&lt;br&gt;灰：被标记但引用对象未被标记&lt;br&gt;白：未被标记" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;spacingLeft=10;" vertex="1" parent="KhyyGNtIl1cw1HzKV6B6-66">
           <mxGeometry x="140" y="110" width="320" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="KhyyGNtIl1cw1HzKV6B6-68" value="增量更新&lt;br&gt;" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;spacingLeft=10;" vertex="1" parent="KhyyGNtIl1cw1HzKV6B6-66">
+          <mxGeometry x="518" y="160" width="320" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font face=&quot;Comic Sans MS&quot;&gt;https://juejin.cn/post/6987298527562956831&lt;/font&gt;" link="https://juejin.cn/post/6987298527562956831" id="KhyyGNtIl1cw1HzKV6B6-69">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="KhyyGNtIl1cw1HzKV6B6-66">
+            <mxGeometry x="260" y="380" width="500" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
