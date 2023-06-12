@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T14:44:12.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AjYbn0yZKPoYb6pXK2XW" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T15:05:52.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="v4-3Q1H8vcaASbMI-KLb" version="21.3.2" type="github">
   <diagram name="第 1 页" id="BC9mfGLHjs254Yc_NBkA">
-    <mxGraphModel dx="5107" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5650" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -651,6 +651,24 @@
         </mxCell>
         <mxCell id="KhyyGNtIl1cw1HzKV6B6-48" value="筛选回收" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="KhyyGNtIl1cw1HzKV6B6-42">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KhyyGNtIl1cw1HzKV6B6-51" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CMS与G1比较&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;CMS主要用于老年代，而G1不分区&lt;br&gt;CMS需要连续空间，而G1使用不同region&lt;br&gt;G1使用增量式更新，而CMS还需要STW&lt;br&gt;G1有整理压缩，而CMS采用的是并发清除&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-4670" y="516" width="520" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="KhyyGNtIl1cw1HzKV6B6-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4080" y="610" as="sourcePoint" />
+            <mxPoint x="-3630" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhyyGNtIl1cw1HzKV6B6-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4080" y="650" as="sourcePoint" />
+            <mxPoint x="-3630" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhyyGNtIl1cw1HzKV6B6-56" value="&lt;p style=&quot;margin: 1.4em 0px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-pid=&quot;tk2no5IS&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot; color=&quot;#121212&quot;&gt;1：使用Region块进行内存分配，无Eden区、survior区、老年代，减少GC。&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1.4em 0px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-pid=&quot;tk2no5IS&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot; color=&quot;#121212&quot;&gt;2：G1维护Collect Set集合，记录待回收的Region块信息，同时记录了每个Region块可回收的大小空间。通过它，可更合理的分配收集的时间。&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1.4em 0px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-pid=&quot;tk2no5IS&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot; color=&quot;#121212&quot;&gt;优势3：GC回收时间的可控性，在G1里面我们可以通过配置去指定一个预期的垃圾收集的指定时间，只要知道了每个Region块的可回收对象大小，那么就可以根据设置的时间计算出收集哪些Region块可以达到指定的目标。当然这个时间不是设置得越小越好，时间少就意味着可以收集的空间少，那么同时也意味着收集次数会变得频繁，官方建议是在100ms-300ms之间。&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1.4em 0px; text-align: start; background-color: rgb(255, 255, 255);&quot; data-pid=&quot;tk2no5IS&quot;&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: &amp;quot;Comic Sans MS&amp;quot;; font-size: medium;&quot;&gt;劣势：因为每个Region区里的对象很有可能会引用其他Region区里的对象，那么对于这种跨Region引用的对象就需要有一个记忆集来维护这个关系，所以G1里面会为每个Region单独维护保存一个卡表，这个卡表就是用来记录这些信息的，当然这个卡表也要占用内存空间的，所以G1会相比CMS要多占用差不多10%-20%的内存空间，而且每次移动Region里的对象都要变更卡表里面的引用关系，这个过程也是非常复杂的。&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;spacingTop=0;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="-3630" y="1000" width="560" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
