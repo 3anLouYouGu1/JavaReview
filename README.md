@@ -10,6 +10,7 @@
 ### MySQL
 
 ### Redis 2024-03-05初稿
+[Redis](https://app.diagrams.net/?src=about#H3anLouYouGu1%2FJavaReview%2Fmain%2F50.Redis%2FRedis.drawio#%7B%22pageId%22%3A%2265bKbwKjN0q9PuXdiJOc%22%7D)
 
 #### BIO、NIO、AIO、Netty
 
