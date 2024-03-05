@@ -9,7 +9,7 @@
 
 ### MySQL
 
-### Redis
+### Redis 2024-03-05初稿
 
 #### BIO、NIO、AIO、Netty
 
