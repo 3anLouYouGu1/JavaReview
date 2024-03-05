@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T14:29:38.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZFpIevhVEnqzjIKt_t-q" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T14:36:27.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3xV3yCaFh8dXIDPry9Nv" version="24.0.1" type="github">
   <diagram name="第 1 页" id="65bKbwKjN0q9PuXdiJOc">
     <mxGraphModel dx="2468" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="oOLIrejuNXrTuRKUb-cc-175" value="&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Redis 3.2 之前，List 底层实现是 LinkedList 或者 ZipList。 Redis 3.2 之后，引入了 LinkedList 和 ZipList 的结合 QuickList，List 的底层实现变为 QuickList。从 Redis 7.0 开始， ZipList 被 ListPack 取代。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1481.25" y="-260" width="191.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-178" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/148562122&quot;&gt;基于数据结构的优化&lt;/a&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-178" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;a href=&quot;https://blog.csdn.net/YTREE_BJ/article/details/119415521&quot;&gt;基于数据结构的优化&lt;/a&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1130" y="20" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-179" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
