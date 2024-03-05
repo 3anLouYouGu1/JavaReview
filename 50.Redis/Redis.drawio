@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T13:57:42.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lO5Ss80eQgFVckDZ02j5" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T14:02:34.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="K7Et5GKuGqIRpClmRhHs" version="24.0.1" type="github">
   <diagram name="第 1 页" id="65bKbwKjN0q9PuXdiJOc">
-    <mxGraphModel dx="2305" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="1487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,67 +70,67 @@
           <mxGeometry x="-850.835" y="-260" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-142" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="-290" width="310" height="30" as="geometry" />
+          <mxGeometry x="-1200" y="-290" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-143" value="String" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-142">
           <mxGeometry width="70" height="30" as="geometry">
             <mxRectangle width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-144" value="SDS" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-142">
-          <mxGeometry x="70" width="240" height="30" as="geometry">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-144" value="&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;SDS[简单动态字符串]&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-142">
+          <mxGeometry x="70" width="290" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-160" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="-260" width="310" height="30" as="geometry" />
+          <mxGeometry x="-1200" y="-260" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-161" value="List" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-160">
           <mxGeometry width="70" height="30" as="geometry">
             <mxRectangle width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-162" value="LinkedList/ZipList/QuickList" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-160">
-          <mxGeometry x="70" width="240" height="30" as="geometry">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-162" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;LinkedList[双向链表]/ZipList[压缩列表]/QuickList[快速列表]&lt;/font&gt;&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-160">
+          <mxGeometry x="70" width="290" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-163" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="-230" width="310" height="30" as="geometry" />
+          <mxGeometry x="-1200" y="-230" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-164" value="Hash" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-163">
           <mxGeometry width="70" height="30" as="geometry">
             <mxRectangle width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-165" value="Dict、ZipList" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-163">
-          <mxGeometry x="70" width="240" height="30" as="geometry">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-165" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;Dict[&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-weight: 400;&quot;&gt;哈希表/字典&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-weight: normal;&quot;&gt;]、ZipList&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; font-weight: 400;&quot;&gt;[压缩列表]&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-163">
+          <mxGeometry x="70" width="290" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-166" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="-200" width="310" height="30" as="geometry" />
+          <mxGeometry x="-1200" y="-200" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-167" value="Set" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-166">
           <mxGeometry width="70" height="30" as="geometry">
             <mxRectangle width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-168" value="Dict、Intset" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-166">
-          <mxGeometry x="70" width="240" height="30" as="geometry">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-168" value="Dict[哈希表/字典]、Intset[整数合集]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSize=10;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-166">
+          <mxGeometry x="70" width="290" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-169" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="-170" width="310" height="30" as="geometry" />
+          <mxGeometry x="-1200" y="-170" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oOLIrejuNXrTuRKUb-cc-170" value="ZSet" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-169">
           <mxGeometry width="70" height="30" as="geometry">
             <mxRectangle width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOLIrejuNXrTuRKUb-cc-171" value="ZipList、SkipList" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-169">
-          <mxGeometry x="70" width="240" height="30" as="geometry">
+        <mxCell id="oOLIrejuNXrTuRKUb-cc-171" value="ZipList[压缩列表]、SkipList[跳跃表]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSize=10;" vertex="1" parent="oOLIrejuNXrTuRKUb-cc-169">
+          <mxGeometry x="70" width="290" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
