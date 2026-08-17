@@ -1,0 +1,890 @@
+<mxfile host="Electron" pages="4">
+  <diagram id="9gS31WInS0cMsWGDl0e6" name="MySQL">
+    <mxGraphModel dx="4554" dy="2537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="510" width="1687" x="-2050" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="530" width="1687" x="-2050" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="281.5" width="1687" x="-2050" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="230" width="600" x="-1960" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-15" parent="u1-PyASi0E7GvzMbGj2O-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="230" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-19" parent="u1-PyASi0E7GvzMbGj2O-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;Buffer Pool&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FF7675;strokeColor=#D63031;fontColor=#FFFFFF;fontStyle=1;fontSize=22;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;🐬 &lt;span&gt;MySQL&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="400" x="1630" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-31" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#0984E3;endArrow=classic;strokeWidth=3;" target="vy14orGzfg-_qZtaTHTE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-32" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#F0932B;endArrow=classic;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vy14orGzfg-_qZtaTHTE-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-33" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#58B19F;endArrow=classic;strokeWidth=3;" target="vy14orGzfg-_qZtaTHTE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-34" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#E1B12C;endArrow=classic;strokeWidth=3;" target="vy14orGzfg-_qZtaTHTE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-35" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#D35400;endArrow=classic;strokeWidth=3;" target="vy14orGzfg-_qZtaTHTE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-36" edge="1" parent="1" source="vy14orGzfg-_qZtaTHTE-1" style="edgeStyle=entityRelationEdgeStyle;curved=1;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=3;" target="vy14orGzfg-_qZtaTHTE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="814" width="790" x="3240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-19" parent="bqwYIzJOsD30StmWxQeE-5" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#55E6C1;strokeColor=#58B19F;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🧬 3. MVCC 机制：隐藏字段 + UndoLog版本链 + ReadView + T1~T11 全流程推演" vertex="1">
+          <mxGeometry height="45" width="790" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-20" parent="bqwYIzJOsD30StmWxQeE-5" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#1DD1A1;" value="&lt;b style=&quot;font-size:13px;color:#16A085;&quot;&gt;📌 1. InnoDB 行记录 4 大隐藏字段&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;color:#000;border:1px solid #1DD1A1;&quot;&gt;&lt;tr style=&quot;background-color:#E8F8F5;&quot;&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;DB_TRX_ID (6 Byte)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;DB_ROLL_PTR (7 Byte)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;DB_ROW_ID (6 Byte)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;DELETE_BIT (1 Bit)&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;最新修改/插入该记录的事务 ID&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;回滚指针，指向 Undo 旧版本&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;隐式自增主键 (无主键时生成)&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;标记是否被软删除&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="790" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-21" parent="bqwYIzJOsD30StmWxQeE-5" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#3498DB;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#2980B9;&quot;&gt;🔍 2. ReadView 4 大字段与可见性算法&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;color:#000;border:1px solid #3498DB;&quot;&gt;&lt;tr style=&quot;background-color:#EBF5FB;&quot;&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;字段&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;含义&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;可见性判别算法&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:6px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;m_ids&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;生成 ReadView 时当前活跃事务 ID 列表&lt;/td&gt;&lt;td rowspan=&quot;4&quot; style=&quot;padding:8px;font-size:11px;vertical-align:middle;&quot;&gt;1. &lt;b&gt;TRX_ID == creator_trx_id&lt;/b&gt; ➔ 可见 (改自己数据)&lt;br/&gt;2. &lt;b&gt;TRX_ID &amp;lt; min_trx_id&lt;/b&gt; ➔ 可见 (已提交旧事务)&lt;br/&gt;3. &lt;b&gt;TRX_ID &amp;gt;= max_trx_id&lt;/b&gt; ➔ 不可见 (未来新事务)&lt;br/&gt;4. &lt;b&gt;min &amp;lt;= TRX_ID &amp;lt; max&lt;/b&gt;：&lt;br/&gt;&amp;nbsp;&amp;nbsp;• 在 m_ids 列表中 ➔ &lt;span style=&quot;color:red;font-weight:bold;&quot;&gt;不可见&lt;/span&gt; (未提交)&lt;br/&gt;&amp;nbsp;&amp;nbsp;• 不在 m_ids 列表中 ➔ &lt;span style=&quot;color:green;font-weight:bold;&quot;&gt;可见&lt;/span&gt; (已提交)&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:6px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;min_trx_id&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;m_ids 中的最小值 (最小活跃 ID)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:6px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;max_trx_id&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;预分配给下一个事务的 ID&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:6px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;creator_trx_id&lt;/td&gt;&lt;td style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;创建该 ReadView 的当前事务 ID&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="180" width="790" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-22" parent="bqwYIzJOsD30StmWxQeE-5" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#58B19F;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;⏱️ 3. T1~T11 并发事务推演流程 (RC vs RR 隔离级别精准对比)&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;color:#000;border:1px solid #58B19F;&quot;&gt;&lt;tr style=&quot;background-color:#EBF5FB;&quot;&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;width:50px;&quot;&gt;时间&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;事务 A (TRX 100)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;事务 B (TRX 200)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;事务 C (TRX 250 - 读事务)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;RC 结果 (Read Committed)&lt;/th&gt;&lt;th style=&quot;padding:6px;text-align:center;vertical-align:middle;&quot;&gt;RR 结果 (Repeatable Read)&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T1&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;BEGIN (100)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T2&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;BEGIN (200)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T3&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;BEGIN (250)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T4&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;UPDATE name=&#39;李四&#39;&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T5&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;font-weight:bold;&quot;&gt;SELECT 第一次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:blue;&quot;&gt;张三 (V1)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:blue;&quot;&gt;张三 (V1, 建立ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T6&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:green;font-weight:bold;&quot;&gt;COMMIT (提交100)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T7&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;font-weight:bold;&quot;&gt;SELECT 第二次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:green;font-weight:bold;&quot;&gt;李四 (新 ReadView)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:blue;&quot;&gt;张三 (复用 T5 ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T8&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;UPDATE name=&#39;王五&#39;&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T9&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:green;font-weight:bold;&quot;&gt;COMMIT (提交200)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T10&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;font-weight:bold;&quot;&gt;SELECT 第三次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:purple;font-weight:bold;&quot;&gt;王五 (新 ReadView)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:blue;&quot;&gt;张三 (复用 T5 ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;vertical-align:middle;padding:5px;font-weight:bold;&quot;&gt;T11&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:green;font-weight:bold;&quot;&gt;COMMIT (250)&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;事务结束&lt;/td&gt;&lt;td style=&quot;padding:5px;text-align:center;vertical-align:middle;color:gray;&quot;&gt;事务结束&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="350" width="790" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-1" parent="bqwYIzJOsD30StmWxQeE-5" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#27AE60;" value="&lt;b style=&quot;color: rgb(39, 174, 96);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;📄 当前聚簇索引最新记录&lt;/font&gt;&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse; width: 100%; margin-top: 4px; font-size: 11px; color: rgb(0, 0, 0); border: 1px solid rgb(39, 174, 96);&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: rgb(212, 239, 223);&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;id&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;name&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_TRX_ID&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_ROLL_PTR&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;1&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;赵六 (Trx 300)&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;color: blue; font-weight: bold; padding: 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;300&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;color: red; font-weight: bold; padding: 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;0x00C33&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="270" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-2" parent="bqwYIzJOsD30StmWxQeE-5" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#F1C40F;" value="&lt;b style=&quot;color: rgb(241, 196, 15);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;↩️ Undo 旧版本 V2&lt;/font&gt;&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse; width: 100%; margin-top: 4px; font-size: 11px; color: rgb(0, 0, 0); border: 1px solid rgb(241, 196, 15);&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: rgb(252, 243, 207);&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;name&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_TRX_ID&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_ROLL_PTR&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;李四&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;200&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;color: red; padding: 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;0x00B22&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="195" x="340" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-3" parent="bqwYIzJOsD30StmWxQeE-5" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#E74C3C;" value="&lt;b style=&quot;color: rgb(231, 76, 60);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;↩️ Undo 旧版本 V1&lt;/font&gt;&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse: collapse; width: 100%; margin-top: 4px; font-size: 11px; color: rgb(0, 0, 0); border: 1px solid rgb(231, 76, 60);&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: rgb(250, 219, 216);&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;name&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_TRX_ID&lt;/font&gt;&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;DB_ROLL_PTR&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;张三&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;100&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;color: gray; padding: 4px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;NULL&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="195" x="595" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="340" width="470" x="3250" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="X0c7wbbVCDjRiInCCg-K-3" connectable="0" parent="bqwYIzJOsD30StmWxQeE-6" style="group" value="" vertex="1">
+          <mxGeometry height="340" width="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-27" parent="X0c7wbbVCDjRiInCCg-K-3" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#A29BFE;strokeColor=#6C5CE7;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="📝 EXPLAIN 剖析" vertex="1">
+          <mxGeometry height="45" width="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-29" parent="X0c7wbbVCDjRiInCCg-K-3" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#E0F7FA;strokeColor=#00CEC9;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b style=&quot;font-size: 13px; color: rgb(0, 206, 201);&quot;&gt;🔍 1.EXPLAIN 调优&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#00cec9&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: green; font-weight: bold;&quot;&gt;system &amp;gt; const &amp;gt; eq_ref &amp;gt; ref &amp;gt; range &amp;gt; index &amp;gt; ALL&lt;/span&gt;&lt;br&gt;• &lt;b&gt;const:&lt;/b&gt; 主键或唯一索引等值查询，仅匹配 1 行&lt;br&gt;• &lt;b&gt;eq_ref:&lt;/b&gt; 多表 Join 时主键或唯一索引关联&lt;br&gt;• &lt;b&gt;ref:&lt;/b&gt; 非唯一索引等值扫描&lt;br&gt;• &lt;b&gt;range:&lt;/b&gt; 索引范围扫描 (IN, BETWEEN, &amp;gt;, &amp;lt;)&lt;br&gt;• &lt;b&gt;ALL:&lt;/b&gt; 性能最差，全表扫描！&lt;br&gt;&lt;hr&gt;&lt;b&gt;⚠️ &lt;font style=&quot;font-size: 13px; color: rgb(0, 206, 201);&quot;&gt;2. &lt;/font&gt;&lt;font style=&quot;font-size: 13px; color: rgb(0, 206, 201);&quot;&gt;Extra 关键提示标识&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00cec9&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;• &lt;b style=&quot;color: green;&quot;&gt;Using index:&lt;/b&gt; 覆盖索引，无需回表聚簇索引！&lt;br&gt;• &lt;b style=&quot;color: orange;&quot;&gt;Using index condition:&lt;/b&gt; 索引下推 (ICP) 优化&lt;br&gt;• &lt;b style=&quot;color: red;&quot;&gt;Using filesort:&lt;/b&gt; 无法利用索引排序，需要额外的内存/磁盘排序 (需优化)&lt;br&gt;• &lt;b style=&quot;color: red;&quot;&gt;Using temporary:&lt;/b&gt; 使用了临时表 (常见于 GROUP BY / DISTINCT，需重点优化)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwYIzJOsD30StmWxQeE-7" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="245" width="400" x="2500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-17" parent="bqwYIzJOsD30StmWxQeE-7" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#FFBE76;strokeColor=#F0932B;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🔒 隔离级别与并发四大问题矩阵" vertex="1">
+          <mxGeometry height="45" width="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-18" parent="bqwYIzJOsD30StmWxQeE-7" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#F0932B;" value="&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;height:100%;font-family:Comic Sans MS;text-align:center;vertical-align:middle;font-size:12px;color:#000;border:1px solid #F0932B;&quot;&gt;&lt;tr style=&quot;background-color:#FFEAA7;&quot;&gt;&lt;th style=&quot;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;隔离级别&lt;/th&gt;&lt;th style=&quot;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;脏读&lt;/th&gt;&lt;th style=&quot;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;不可重复读&lt;/th&gt;&lt;th style=&quot;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;幻读&lt;/th&gt;&lt;th style=&quot;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;丢失更新&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;Read Uncommitted&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:8px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;Read Committed&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;❌ 存在&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#E8F8F5;&quot;&gt;&lt;td style=&quot;padding:8px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;Repeatable Read&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:8px;font-weight:bold;text-align:center;vertical-align:middle;&quot;&gt;Serializable&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:8px;text-align:center;vertical-align:middle;&quot;&gt;✅ 解决&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="180" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="370" width="1760" x="2780" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-2" parent="oZOOYCKAifwTlRQEU5Wi-9" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#A29BFE;strokeColor=#6C5CE7;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="📝 7. 索引优化全集：失效场景 + B+Tree 页分裂 + Join 机制" vertex="1">
+          <mxGeometry height="45" width="1750" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-3" parent="oZOOYCKAifwTlRQEU5Wi-9" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#FFEAA7;strokeColor=#F1C40F;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;color: rgb(214, 48, 49);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;⚠️ 索引失效典型场景&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#d63031&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;1. &lt;b&gt;违反最左前缀法则：&lt;/b&gt;联合索引 (a,b,c)，直接跳过 a 使用 WHERE b=1 AND c=2&lt;br&gt;2. &lt;b&gt;隐式类型转换：&lt;/b&gt;varchar 字符串列传入 int 值 (WHERE phone=138000)&lt;br&gt;3. &lt;b&gt;索引列函数/表达式运算：&lt;/b&gt;WHERE YEAR(create_time)=2026 或 WHERE age+1=18&lt;br&gt;4. &lt;b&gt;范围查询断开后续索引：&lt;/b&gt;WHERE a=1 AND b&amp;gt;10 AND c=3 (c 列走不了索引)&lt;br&gt;5. &lt;b&gt;模糊查询前导通配符：&lt;/b&gt;WHERE name LIKE &#39;%三&#39; (后置通配符 &#39;三%&#39; 可以走索引)&lt;br&gt;6. &lt;b&gt;OR 连接未带索引列：&lt;/b&gt;WHERE id=1 OR age=18 (若 age 无索引则整个语句全表扫描)&lt;br&gt;7. &lt;b&gt;两表字符集不一致：&lt;/b&gt;Join 关联列字符集不匹配 (utf8 与 utf8mb4 发生隐式转换)&lt;br&gt;8. &lt;b&gt;优化器成本估算偏差：&lt;/b&gt;数据量极小或统计信息不准，MySQL 认为全表扫描更快&lt;br&gt;9. &lt;b&gt;IS NULL / IS NOT NULL：&lt;/b&gt;根据 NULL 占比评估，非空占比极高时 IS NOT NULL 失效&lt;br&gt;10. &lt;b&gt;不等于符号使用：&lt;/b&gt;WHERE age != 20 或 &amp;lt;&amp;gt; 可能会导致优化器放弃索引&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="550" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-4" parent="oZOOYCKAifwTlRQEU5Wi-9" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#E8F8F5;strokeColor=#1DD1A1;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;color: rgb(51, 255, 255);&quot;&gt;🌳&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 204, 204);&quot;&gt; B+Tree 节点页分裂与合并原理&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;1. 页分裂 (Page Split):&lt;/b&gt;&lt;br&gt;• 场景：数据页 (默认 16KB) 已装满，插入随机主键 (如 UUID) 乱序写入&lt;br&gt;• 过程：寻找合适位置 ➔ 申请新数据页 ➔ 将原页 50% 数据移动至新页 ➔ 更新上层目录页指针&lt;br&gt;• 影响：引发大量物理随机 I/O、占用额外空间、产生页碎片（推荐单调自增主键）&lt;br&gt;&lt;br&gt;&lt;b&gt;2. 页合并 (Page Merge):&lt;/b&gt;&lt;br&gt;• 场景：频繁 DELETE 删除数据或 UPDATE 变更，导致页利用率低于阈值 (MERGE_THRESHOLD 默认 50%)&lt;br&gt;• 过程：查看前后相邻节点数据页 ➔ 尝试将碎片数据合并进一个数据页 ➔ 释放空页" vertex="1">
+          <mxGeometry height="250" width="550" x="610" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-5" parent="oZOOYCKAifwTlRQEU5Wi-9" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;🔗&lt;span style=&quot;color: rgb(153, 51, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt; Join 关联查询底层 3 大执行机制&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;1. Index Nested-Loop Join (INLJ - 索引嵌套循环):&lt;/b&gt;&lt;br&gt;驱动表全表扫描，被驱动表关联列【有索引】。每次匹配直接走 B+Tree 索引查找，性能最高！&lt;br&gt;&lt;br&gt;&lt;b&gt;2. Block Nested-Loop Join (BNLJ - 块嵌套循环):&lt;/b&gt;&lt;br&gt;被驱动表关联列【无索引】。将驱动表分批拉入内存 &lt;b style=&quot;color: rgb(214, 48, 49);&quot;&gt;Join Buffer&lt;/b&gt;，批量与被驱动表扫描比对，降低磁盘扫描次数。&lt;br&gt;&lt;br&gt;&lt;b&gt;3. Simple Nested-Loop Join (SNLJ - 简单嵌套循环):&lt;/b&gt;&lt;br&gt;无索引且无 Join Buffer，双重 Nested Loop 匹配，开销等于 M×N 行扫描，MySQL 8.0 已用 Hash Join 彻底替代它。" vertex="1">
+          <mxGeometry height="250" width="550" x="1210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-6" edge="1" parent="oZOOYCKAifwTlRQEU5Wi-9" source="oZOOYCKAifwTlRQEU5Wi-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6C5CE7;endArrow=classic;endSize=8;strokeWidth=2;" target="oZOOYCKAifwTlRQEU5Wi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-7" edge="1" parent="oZOOYCKAifwTlRQEU5Wi-9" source="oZOOYCKAifwTlRQEU5Wi-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6C5CE7;endArrow=classic;endSize=8;strokeWidth=2;" target="oZOOYCKAifwTlRQEU5Wi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-8" edge="1" parent="oZOOYCKAifwTlRQEU5Wi-9" source="oZOOYCKAifwTlRQEU5Wi-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6C5CE7;endArrow=classic;endSize=8;strokeWidth=2;" target="oZOOYCKAifwTlRQEU5Wi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-12" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;curved=0;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;" target="oZOOYCKAifwTlRQEU5Wi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="1340" as="sourcePoint" />
+            <mxPoint x="2925" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZOOYCKAifwTlRQEU5Wi-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="290" width="350" x="1570" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-25" parent="oZOOYCKAifwTlRQEU5Wi-13" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#EDBB99;strokeColor=#D35400;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🛡️ InnoDB 锁体系与行锁形态" vertex="1">
+          <mxGeometry height="45" width="350" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-26" parent="oZOOYCKAifwTlRQEU5Wi-13" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#D35400;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;🔒 1. 锁粒度分类&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;共享锁 (S):&lt;/b&gt; 读锁，允许并发读，阻止独占写&lt;br/&gt;• &lt;b&gt;排他锁 (X):&lt;/b&gt; 写锁，独占资源，阻止其他任何读写锁&lt;br/&gt;• &lt;b&gt;意向锁 (IS/IX):&lt;/b&gt; 表级锁，快速判断表内是否有行被锁住&lt;br/&gt;&lt;hr/&gt;&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;🎯 2. 行锁 3 大物理形态 (RR 解决幻读核心)&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Record Lock:&lt;/b&gt; 仅仅锁住索引项本身&lt;br/&gt;• &lt;b&gt;Gap Lock:&lt;/b; 锁住索引间的开区间 (5, 10)，防止并发 INSERT 插入引发幻读&lt;br/&gt;• &lt;b&gt;Next-Key Lock:&lt;/b; Record + Gap，锁住左开右闭区间 (5, 10]，RR 下的默认行锁形态！" vertex="1">
+          <mxGeometry height="230" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="350" width="1420" x="-90" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-18" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="vy14orGzfg-_qZtaTHTE-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.75;entryDx=0;entryDy=0;sketch=1;strokeWidth=1.5;curved=1;fillColor=#fff2cc;" target="dR6IVpW4JtUuEo3pkLVc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-19" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="vy14orGzfg-_qZtaTHTE-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;strokeWidth=1.5;curved=1;fillColor=#fff2cc;" target="dR6IVpW4JtUuEo3pkLVc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-24" connectable="0" parent="dR6IVpW4JtUuEo3pkLVc-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5887" y="6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-23" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#F8EFBA;strokeColor=#E1B12C;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🪵 MySQL 6 大日志体系架构分叉" vertex="1">
+          <mxGeometry height="45" width="380" x="1040" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-2" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontColor=#000000;fontStyle=1;fontSize=12;fontFamily=Comic Sans MS;" value="🖥️ Server 层日志 (所有引擎共用)" vertex="1">
+          <mxGeometry height="35" width="400" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-3" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;1. Binlog (归档日志)&lt;/b&gt;&lt;br/&gt;• 作用: 主从复制、Point-in-time 数据恢复&lt;br/&gt;• 特性: 逻辑日志，追加写，格式(Row/Statement/Mixed)" vertex="1">
+          <mxGeometry height="55" width="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-4" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;2. Slow Query Log (慢查询日志)&lt;/b&gt;&lt;br/&gt;• 作用: 捕获执行超过 long_query_time 阈值的慢 SQL" vertex="1">
+          <mxGeometry height="45" width="380" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-5" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;3. Error Log (错误日志)&lt;/b&gt;&lt;br/&gt;• 作用: 记录 MySQL 启动、运行、停止过程中的致命错误信息" vertex="1">
+          <mxGeometry height="45" width="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-6" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;4. General Log (通用查询日志)&lt;/b&gt;&lt;br/&gt;• 作用: 记录客户端发送的所有 SQL 命令 (默认关闭)" vertex="1">
+          <mxGeometry height="45" width="380" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-7" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontColor=#000000;fontStyle=1;fontSize=12;fontFamily=Comic Sans MS;" value="🐬 InnoDB 存储引擎层日志" vertex="1">
+          <mxGeometry height="35" width="400" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-8" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;5. Redo Log (重做日志)&lt;/b&gt;&lt;br/&gt;• 作用: 保证事务【持久性】与 Crash-Safe 崩溃恢复&lt;br/&gt;• 特性: 物理日志(记录数据页修改)，WAL 机制，环形覆盖写" vertex="1">
+          <mxGeometry height="55" width="380" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-9" parent="dR6IVpW4JtUuEo3pkLVc-22" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;6. Undo Log (回滚日志)&lt;/b&gt;&lt;br/&gt;• 作用: 保证事务【原子性】(ROLLBACK) &amp;amp; 支撑 MVCC 多版本读&lt;br/&gt;• 特性: 逻辑日志(保存相反的逻辑 SQL 操作，如 INSERT 保存 DELETE)" vertex="1">
+          <mxGeometry height="55" width="380" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-12" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="dR6IVpW4JtUuEo3pkLVc-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;" target="dR6IVpW4JtUuEo3pkLVc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-13" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="dR6IVpW4JtUuEo3pkLVc-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dR6IVpW4JtUuEo3pkLVc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-14" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="dR6IVpW4JtUuEo3pkLVc-2" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dR6IVpW4JtUuEo3pkLVc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-16" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="dR6IVpW4JtUuEo3pkLVc-7" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#FB8C00;endArrow=classic;strokeWidth=1.5;" target="dR6IVpW4JtUuEo3pkLVc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dR6IVpW4JtUuEo3pkLVc-17" edge="1" parent="dR6IVpW4JtUuEo3pkLVc-22" source="dR6IVpW4JtUuEo3pkLVc-7" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#FB8C00;endArrow=classic;strokeWidth=1.5;" target="dR6IVpW4JtUuEo3pkLVc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-40" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="770" width="990" x="370" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="vy14orGzfg-_qZtaTHTE-2" parent="5kgn6RlVe4klQ_Y5aL4v-40" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="⚡ UPDATE 执行流程、内存缓冲池与 2PC 两阶段提交" vertex="1">
+          <mxGeometry height="45" width="989.9999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-20" parent="5kgn6RlVe4klQ_Y5aL4v-40" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#FFF9C4;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="Server 层 (Server Layer)" vertex="1">
+          <mxGeometry height="170" width="989.9999999999998" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-21" parent="5kgn6RlVe4klQ_Y5aL4v-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="1. 执行器 (Executor)&#xa;接收 UPDATE SQL" vertex="1">
+          <mxGeometry height="65" width="228.4615384615384" x="50.76923076923076" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-22" parent="5kgn6RlVe4klQ_Y5aL4v-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF176;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="Binlog Cache (内存)&#xa;&#xa;6. [2PC阶段二] 写入 Binlog&#xa;并刷盘至 binlog.file" vertex="1">
+          <mxGeometry height="75" width="291.92307692307685" x="647.3076923076922" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-23" parent="5kgn6RlVe4klQ_Y5aL4v-40" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#E8F5E9;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="InnoDB 存储引擎层 (InnoDB Engine)" vertex="1">
+          <mxGeometry height="310" width="989.9999999999998" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-24" parent="5kgn6RlVe4klQ_Y5aL4v-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#000000;fontStyle=1;align=center;fontFamily=Comic Sans MS;sketch=1;" value="缓冲池 (Buffer Pool - 内存)&#xa;&#xa;2. 查未命中则从磁盘加载 Data Page&#xa;3. 修改前写 Undo Log (旧版本/MVCC)&#xa;4. 更新内存数据 (变 Dirty Page)" vertex="1">
+          <mxGeometry height="130" width="393.4615384615384" x="38.076923076923066" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-25" parent="5kgn6RlVe4klQ_Y5aL4v-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#000000;fontStyle=1;align=center;fontFamily=Comic Sans MS;sketch=1;" value="重做日志缓存 (Redo Log Buffer)&#xa;&#xa;5. [2PC阶段一] 写入物理修改日志&#xa;刷盘并标记状态为 Prepare" vertex="1">
+          <mxGeometry height="130" width="355.3846153846153" x="583.8461538461537" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-26" parent="5kgn6RlVe4klQ_Y5aL4v-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="7. 修改 Redo Log 状态为 Commit&#xa;(事务正式提交完成)" vertex="1">
+          <mxGeometry height="60" width="355.3846153846153" x="583.8461538461537" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-33" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-23" source="5kgn6RlVe4klQ_Y5aL4v-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-25" value="写 Redo 物理日志">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-27" parent="5kgn6RlVe4klQ_Y5aL4v-40" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#F5F5F5;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="磁盘 (Disk Storage)" vertex="1">
+          <mxGeometry height="160" width="989.9999999999998" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-28" parent="5kgn6RlVe4klQ_Y5aL4v-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="数据文件&#xa;(.ibd)" vertex="1">
+          <mxGeometry height="90" width="164.99999999999997" x="139.61538461538458" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-29" parent="5kgn6RlVe4klQ_Y5aL4v-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFE0B2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="Redo Log 文件&#xa;(redo.log)" vertex="1">
+          <mxGeometry height="90" width="164.99999999999997" x="482.3076923076922" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-30" parent="5kgn6RlVe4klQ_Y5aL4v-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFF9C4;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="Binlog 文件&#xa;(binlog.000...)" vertex="1">
+          <mxGeometry height="90" width="164.99999999999997" x="774.230769230769" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-31" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-24" value="调用存储引擎">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-35" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-22" value="准备好后通知 Server">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-32" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;dashed=1;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-24" value="加载数据页">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-38" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;dashed=1;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-28" value="8. 后台异步刷脏页">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-34" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;curved=1;" target="5kgn6RlVe4klQ_Y5aL4v-29" value="刷盘 (Prepare)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761.5" y="470" />
+              <mxPoint x="460" y="470" />
+              <mxPoint x="460" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-36" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" target="5kgn6RlVe4klQ_Y5aL4v-30" value="刷盘">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="979.94" y="157.47" />
+              <mxPoint x="979.94" y="620.06" />
+              <mxPoint x="856.65" y="620.06" />
+            </Array>
+            <mxPoint x="951.9230769230767" y="157.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kgn6RlVe4klQ_Y5aL4v-37" edge="1" parent="5kgn6RlVe4klQ_Y5aL4v-40" source="5kgn6RlVe4klQ_Y5aL4v-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="5kgn6RlVe4klQ_Y5aL4v-26" value="通知提交">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMJG2RxG2_oo2SMSn_GO-5" edge="1" parent="1" source="oMJG2RxG2_oo2SMSn_GO-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5kgn6RlVe4klQ_Y5aL4v-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMJG2RxG2_oo2SMSn_GO-3" connectable="0" parent="1" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="75" width="355.38" x="930" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="oMJG2RxG2_oo2SMSn_GO-2" parent="oMJG2RxG2_oo2SMSn_GO-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="75" width="355.38" as="geometry" />
+        </mxCell>
+        <mxCell id="oMJG2RxG2_oo2SMSn_GO-1" parent="oMJG2RxG2_oo2SMSn_GO-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;binlog 属于 Server 层，与存储引擎⽆关，⽆法直接操作物理数据⻚。⽽ redo log 和 undo log 是 InnoDB 存储引&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;擎实现 ACID 的基⽯。&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="291.92" x="20" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-3" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-4" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;1.通过tcp/ip 发送一条sql语句到Server层的SQL Interface&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0187" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;苹方0&quot;&gt;&lt;b&gt;Mysql Client&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1710" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-7" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-8" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;2.SQL Interface接到请求后&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;苹方0&quot;&gt;验证权限是否匹配&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1192" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;SQL Interface&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1710" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-10" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-11" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;3.分析器进行语句分析检查语句错误&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4435" y="20" as="geometry">
+            <mxPoint y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;分析器&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1220" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-13" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-14" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;4.生成并选择执行计划交给执行器执行&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0841" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;优化器&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1520" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-27" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-28" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;8.获取数据后对数据进行操作,&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;苹方0&quot;&gt;写回data page&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3349" y="66" as="geometry">
+            <mxPoint x="97" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-68" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-69" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;13.提交事务&lt;br&gt;将原始逻辑存入&lt;br&gt;binlog cache&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0556" y="-3" as="geometry">
+            <mxPoint x="45" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;执行器&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1520" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-30" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-35" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;9.将data page 和undo page做的修改记录&lt;br&gt;更新到redo log buffer&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0769" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-25" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-26" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;pre&gt;&lt;font face=&quot;苹方0&quot;&gt;7.将修改前的&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;写入到undo page&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0763" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot;&gt;&lt;b&gt;Data Page&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="-1930" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot;&gt;&lt;b&gt;Undo Page&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="-1510" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-16" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-17" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;5.进入引擎层并获取锁&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;苹方0&quot;&gt;从DataPage中取数据&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3499" y="44" as="geometry">
+            <mxPoint x="-44" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-23" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-24" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;6.未命中缓存时，则从磁盘文件中加载数据&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0094" y="-1" as="geometry">
+            <mxPoint x="34" y="97" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;磁盘文件(Undo log)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="-1957.5" y="1454.67" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="220" width="283" x="-940" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-29" parent="u1-PyASi0E7GvzMbGj2O-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="220" width="283" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-31" parent="u1-PyASi0E7GvzMbGj2O-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;Redo Log Buffer&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="28.695652173913043" width="28.3" x="127.35000000000001" y="85.00043478260869" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-39" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="u1-PyASi0E7GvzMbGj2O-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-45" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;10.redo log 刷入磁盘&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3148" y="-2" as="geometry">
+            <mxPoint x="-90" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-44" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="200" x="-1240" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-38" parent="u1-PyASi0E7GvzMbGj2O-44" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;sketch=1;curveFitting=1;jiggle=2;strokeColor=#23445d;" value="" vertex="1">
+          <mxGeometry height="90" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-40" parent="u1-PyASi0E7GvzMbGj2O-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;主线程&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="28.695652173913043" width="28.3" x="85.85000000000002" y="30.65000000000009" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-46" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;exitX=0.439;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" target="u1-PyASi0E7GvzMbGj2O-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot;&gt;&lt;b&gt;脏数据&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28.7" width="120" x="-1680" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-48" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-49" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;随机刷入磁盘&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1121" y="11" as="geometry">
+            <mxPoint x="-5" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-57" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-65" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;12.持久化到磁盘(fsync)&lt;br&gt;此时redolog为prepare阶段&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0834" y="-2" as="geometry">
+            <mxPoint x="-88" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-73" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-74" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;15.持久化到磁盘(fsync)&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0407" y="2" as="geometry">
+            <mxPoint x="72" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b46504;" value="" vertex="1">
+          <mxGeometry height="69.35" width="540" x="-1170" y="1220.65" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-51" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-53" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;" value="&lt;font face=&quot;苹方0&quot;&gt;11.先写入文件系统Page Cache(write)&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0973" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;Page Cache&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="28.695652173913043" width="28.3" x="-914.15" y="1240.98" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-61" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="69.34999999999991" width="160" x="-1220" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-56" parent="u1-PyASi0E7GvzMbGj2O-61" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="69.35" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-58" parent="u1-PyASi0E7GvzMbGj2O-61" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;Redo Log 日志文件&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="28.695652173913043" width="28.3" x="70" y="20.329999999999927" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-62" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="69.34999999999991" width="160" x="-790" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-63" parent="u1-PyASi0E7GvzMbGj2O-62" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="69.35" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-64" parent="u1-PyASi0E7GvzMbGj2O-62" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: 苹方0; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;b&gt;Bin Log 日志文件&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="28.695652173913043" width="28.3" x="70" y="20.329999999999927" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-71" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-590" y="490.06" />
+              <mxPoint x="-590" y="1109.94" />
+              <mxPoint x="-764.94" y="1109.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-72" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;font-family: 苹方0;&quot;&gt;14.先写入文件系统Page Cache(write)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6836" y="6" as="geometry">
+            <mxPoint x="25" y="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot;&gt;&lt;span style=&quot;font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;&lt;b&gt;Bin Log Cache&lt;br&gt;(内存区域,每个线程维护)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="-930" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-75" edge="1" parent="1" source="u1-PyASi0E7GvzMbGj2O-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;labelBackgroundColor=default;resizable=0;endArrow=classic;" target="u1-PyASi0E7GvzMbGj2O-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-76" connectable="0" parent="u1-PyASi0E7GvzMbGj2O-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" value="&lt;font face=&quot;苹方0&quot;&gt;16.为redo log打上commit&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1256" y="2" as="geometry">
+            <mxPoint x="12" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;苹方0&quot; style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;磁盘&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="281.5" width="120" x="-2170" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="530" width="120" x="-2170" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;苹方0&quot; style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;InnoDB 引擎&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-2140" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="510" width="120" x="-2170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u1-PyASi0E7GvzMbGj2O-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;苹方0&quot; style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Server层&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-2140" y="305" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NQEwdlWpi2yH-q2slLrX" name="草稿">
+    <mxGraphModel dx="1184" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FF7675;strokeColor=#D63031;fontColor=#000000;fontStyle=1;fontSize=20;fontFamily=Comic Sans MS;" value="🐬 MySQL 8.0 核心知识库&lt;br/&gt;全景架构大白板" vertex="1">
+          <mxGeometry height="170" width="360" x="2400" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--2" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="⚡ 1. UPDATE 执行流程 &amp; 2PC 两阶段提交" vertex="1">
+          <mxGeometry height="45" width="1050" x="600" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--3" parent="1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;" value="🖥️ Server 层" vertex="1">
+          <mxGeometry height="110" width="1050" x="600" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--4" parent="9OhNDfNVqfDzwNlpcM6--3" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="① 连接器(鉴权)" vertex="1">
+          <mxGeometry height="50" width="110" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--5" parent="9OhNDfNVqfDzwNlpcM6--3" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="② 分析器(语法解析)" vertex="1">
+          <mxGeometry height="50" width="130" x="160" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--6" parent="9OhNDfNVqfDzwNlpcM6--3" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="③ 优化器(索引代价)" vertex="1">
+          <mxGeometry height="50" width="130" x="320" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--7" parent="9OhNDfNVqfDzwNlpcM6--3" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="④ 执行器(调用引擎)" vertex="1">
+          <mxGeometry height="50" width="130" x="480" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--8" parent="9OhNDfNVqfDzwNlpcM6--3" style="rounded=1;sketch=1;html=1;fillColor=#FFF59D;strokeColor=#FBC02D;fontStyle=1;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑩ 写 Binlog 缓存&lt;br/&gt;(2PC 阶段2)" vertex="1">
+          <mxGeometry height="50" width="140" x="880" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--9" parent="1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;" value="🐬 InnoDB 存储引擎层" vertex="1">
+          <mxGeometry height="110" width="1050" x="600" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--10" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑤ 查 Buffer Pool" vertex="1">
+          <mxGeometry height="50" width="110" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--11" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑥ 记 Undo Log" vertex="1">
+          <mxGeometry height="50" width="110" x="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--12" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑦ 改内存页(脏页)" vertex="1">
+          <mxGeometry height="50" width="120" x="280" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--13" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑧ 记 Redo Buffer" vertex="1">
+          <mxGeometry height="50" width="120" x="420" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--14" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontStyle=1;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑨ Redo 刷盘 Prepare&lt;br/&gt;(2PC 阶段1)" vertex="1">
+          <mxGeometry height="50" width="150" x="570" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--15" parent="9OhNDfNVqfDzwNlpcM6--9" style="rounded=1;sketch=1;html=1;fillColor=#81C784;strokeColor=#2E7D32;fontStyle=1;fontSize=11;fontColor=#000000;fontFamily=Comic Sans MS;" value="⑪ 写 Commit 标记&lt;br/&gt;(2PC 完成)" vertex="1">
+          <mxGeometry height="50" width="140" x="880" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--16" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#FFBE76;strokeColor=#F0932B;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🔒 2. 并发四大问题与隔离级别对比矩阵" vertex="1">
+          <mxGeometry height="45" width="800" x="1800" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#F0932B;" value="&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;font-family:Comic Sans MS;text-align:center;font-size:12px;color:#000;border:1px solid #F0932B;&quot;&gt;&lt;tr style=&quot;background-color:#FFEAA7;&quot;&gt;&lt;th style=&quot;padding:8px;&quot;&gt;隔离级别 (Level)&lt;/th&gt;&lt;th style=&quot;padding:8px;&quot;&gt;脏读 (Dirty Read)&lt;/th&gt;&lt;th style=&quot;padding:8px;&quot;&gt;不可重复读 (Non-Repeatable)&lt;/th&gt;&lt;th style=&quot;padding:8px;&quot;&gt;幻读 (Phantom Read)&lt;/th&gt;&lt;th style=&quot;padding:8px;&quot;&gt;丢失更新 (Lost Update)&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:6px;font-weight:bold;&quot;&gt;Read Uncommitted&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:6px;font-weight:bold;&quot;&gt;Read Committed&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;td style=&quot;color:#D63031;padding:6px;&quot;&gt;❌ 存在&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#E8F8F5;&quot;&gt;&lt;td style=&quot;padding:6px;font-weight:bold;&quot;&gt;Repeatable Read (默认)&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决 (MVCC+NextKey)&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:6px;font-weight:bold;&quot;&gt;Serializable&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;td style=&quot;color:#00B894;padding:6px;&quot;&gt;✅ 解决&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="240" width="800" x="1800" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--18" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#55E6C1;strokeColor=#58B19F;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🧬 3. MVCC 机制全解析：隐藏字段 + UndoLog版本链 + ReadView匹配算法 + T1~T11 推演" vertex="1">
+          <mxGeometry height="45" width="1250" x="2700" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#1DD1A1;" value="&lt;b style=&quot;font-size:13px;color:#16A085;&quot;&gt;📌 1. InnoDB 行记录 4 大隐藏字段&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;color:#000;border:1px solid #1DD1A1;&quot;&gt;&lt;tr style=&quot;background-color:#E8F8F5;&quot;&gt;&lt;th style=&quot;padding:5px;&quot;&gt;DB_TRX_ID (6 Byte)&lt;/th&gt;&lt;th style=&quot;padding:5px;&quot;&gt;DB_ROLL_PTR (7 Byte)&lt;/th&gt;&lt;th style=&quot;padding:5px;&quot;&gt;DB_ROW_ID (6 Byte)&lt;/th&gt;&lt;th style=&quot;padding:5px;&quot;&gt;DELETE_BIT (1 Bit)&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:5px;&quot;&gt;最新修改/插入该记录的事务 ID&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;回滚指针，指向 Undo Log 中的旧版本&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;隐式自增主键 (无主键时自动生成)&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;标记是否被软删除&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="1250" x="2700" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#27AE60;" value="&lt;b style=&quot;color:#27AE60;&quot;&gt;📄 当前聚簇索引最新记录&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:4px;font-size:11px;color:#000;border:1px solid #27AE60;&quot;&gt;&lt;tr style=&quot;background-color:#D4EFDF;&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;id&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;name&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_TRX_ID&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_ROLL_PTR&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;1&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;赵六 (Trx 300)&lt;/td&gt;&lt;td style=&quot;color:blue;font-weight:bold;padding:4px;&quot;&gt;300&lt;/td&gt;&lt;td style=&quot;color:red;font-weight:bold;padding:4px;&quot;&gt;0x00C33&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="380" x="2700" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#F1C40F;" value="&lt;b style=&quot;color:#F1C40F;&quot;&gt;↩️ Undo 旧版本 V2&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:4px;font-size:11px;color:#000;border:1px solid #F1C40F;&quot;&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;name&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_TRX_ID&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_ROLL_PTR&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;李四&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;200&lt;/td&gt;&lt;td style=&quot;color:red;padding:4px;&quot;&gt;0x00B22&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="380" x="3135" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fillColor=#FFFFFF;strokeColor=#E74C3C;" value="&lt;b style=&quot;color:#E74C3C;&quot;&gt;↩️ Undo 旧版本 V1&lt;/b&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:4px;font-size:11px;color:#000;border:1px solid #E74C3C;&quot;&gt;&lt;tr style=&quot;background-color:#FADBD8;&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;name&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_TRX_ID&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;DB_ROLL_PTR&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;text-align:center;&quot;&gt;&lt;td style=&quot;padding:4px;&quot;&gt;张三&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;100&lt;/td&gt;&lt;td style=&quot;color:gray;padding:4px;&quot;&gt;NULL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="85" width="380" x="3570" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--23" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#3498DB;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#2980B9;&quot;&gt;🔍 2. ReadView 4 大核心字段与可见性规则&lt;/b&gt;&lt;br/&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;color:#000;border:1px solid #3498DB;&quot;&gt;&lt;tr style=&quot;background-color:#EBF5FB;&quot;&gt;&lt;th style=&quot;padding:4px;&quot;&gt;字段&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;含义&lt;/th&gt;&lt;th style=&quot;padding:4px;&quot;&gt;可见性判别算法&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:4px;font-weight:bold;&quot;&gt;m_ids&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;生成 ReadView 时当前活跃事务 ID 列表&lt;/td&gt;&lt;td rowspan=&quot;4&quot; style=&quot;padding:6px;font-size:10.5px;&quot;&gt;1. &lt;b&gt;TRX_ID == creator_trx_id&lt;/b&gt; ➔ 可见 (改自己数据)&lt;br/&gt;2. &lt;b&gt;TRX_ID &amp;lt; min_trx_id&lt;/b&gt; ➔ 可见 (已提交旧事务)&lt;br/&gt;3. &lt;b&gt;TRX_ID &amp;gt;= max_trx_id&lt;/b&gt; ➔ 不可见 (未来开启的事务)&lt;br/&gt;4. &lt;b&gt;min &amp;lt;= TRX_ID &amp;lt; max&lt;/b&gt;：&lt;br/&gt;&amp;nbsp;&amp;nbsp;• 若 TRX_ID 在 m_ids 列表中 ➔ &lt;span style=&quot;color:red;&quot;&gt;不可见&lt;/span&gt; (未提交)&lt;br/&gt;&amp;nbsp;&amp;nbsp;• 若 TRX_ID 不在 m_ids 列表中 ➔ &lt;span style=&quot;color:green;&quot;&gt;可见&lt;/span&gt; (已提交)&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:4px;font-weight:bold;&quot;&gt;min_trx_id&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;m_ids 中的最小值 (最小活跃事务 ID)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:4px;font-weight:bold;&quot;&gt;max_trx_id&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;预分配给下一个事务的 ID (即最大 ID + 1)&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;padding:4px;font-weight:bold;&quot;&gt;creator_trx_id&lt;/td&gt;&lt;td style=&quot;padding:4px;&quot;&gt;创建该 ReadView 的当前事务 ID&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="150" width="1250" x="2700" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--24" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#58B19F;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;⏱️ 3. T1~T11 并发事务推演流程 (RC vs RR 隔离级别精准对比)&lt;/b&gt;&lt;br/&gt;&lt;table border=&quot;1&quot; style=&quot;border-collapse:collapse;width:100%;margin-top:6px;font-size:11px;text-align:left;color:#000;border:1px solid #58B19F;&quot;&gt;&lt;tr style=&quot;background-color:#EBF5FB;text-align:center;&quot;&gt;&lt;th style=&quot;padding:6px;width:60px;&quot;&gt;时间&lt;/th&gt;&lt;th style=&quot;padding:6px;&quot;&gt;事务 A (TRX 100)&lt;/th&gt;&lt;th style=&quot;padding:6px;&quot;&gt;事务 B (TRX 200)&lt;/th&gt;&lt;th style=&quot;padding:6px;&quot;&gt;事务 C (TRX 250 - 读事务)&lt;/th&gt;&lt;th style=&quot;padding:6px;&quot;&gt;RC 结果 (Read Committed)&lt;/th&gt;&lt;th style=&quot;padding:6px;&quot;&gt;RR 结果 (Repeatable Read)&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T1&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;BEGIN (100)&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T2&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;BEGIN (200)&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T3&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;BEGIN (250)&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T4&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;UPDATE name=&#39;李四&#39;&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T5&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;font-weight:bold;&quot;&gt;SELECT 第一次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;color:blue;&quot;&gt;张三 (版本V1)&lt;/td&gt;&lt;td style=&quot;padding:5px;color:blue;&quot;&gt;张三 (版本V1, 建立ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T6&lt;/td&gt;&lt;td style=&quot;padding:5px;color:green;font-weight:bold;&quot;&gt;COMMIT (提交100)&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T7&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;font-weight:bold;&quot;&gt;SELECT 第二次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;color:green;font-weight:bold;&quot;&gt;李四 (新建ReadView,可读已提交)&lt;/td&gt;&lt;td style=&quot;padding:5px;color:blue;&quot;&gt;张三 (复用T5 ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T8&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;UPDATE name=&#39;王五&#39;&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FAFAFA;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T9&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:green;font-weight:bold;&quot;&gt;COMMIT (提交200)&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#FCF3CF;&quot;&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;color:#D63031;&quot;&gt;T10&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;font-weight:bold;&quot;&gt;SELECT 第三次快照读&lt;/td&gt;&lt;td style=&quot;padding:5px;color:purple;font-weight:bold;&quot;&gt;王五 (新建ReadView,可读已提交)&lt;/td&gt;&lt;td style=&quot;padding:5px;color:blue;&quot;&gt;张三 (复用T5 ReadView)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;padding:5px;font-weight:bold;&quot;&gt;T11&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;&quot;&gt;-&lt;/td&gt;&lt;td style=&quot;padding:5px;color:green;font-weight:bold;&quot;&gt;COMMIT (提交250)&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;事务结束&lt;/td&gt;&lt;td style=&quot;padding:5px;color:gray;&quot;&gt;事务结束&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="325" width="1250" x="2700" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--25" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#F8EFBA;strokeColor=#E1B12C;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🪵 4. MySQL 6 大核心日志体系架构分叉树" vertex="1">
+          <mxGeometry height="45" width="1050" x="600" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--26" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#F39C12;strokeColor=#D35400;fontColor=#000000;fontStyle=1;fontSize=14;fontFamily=Comic Sans MS;" value="🪵 MySQL 6 大日志" vertex="1">
+          <mxGeometry height="40" width="180" x="1470" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--27" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontColor=#000000;fontStyle=1;fontSize=12;fontFamily=Comic Sans MS;" value="🖥️ Server 层日志 (所有引擎共用)" vertex="1">
+          <mxGeometry height="35" width="400" x="1020" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--28" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;1. Binlog (归档日志)&lt;/b&gt;&lt;br/&gt;• 作用: 主从复制、Point-in-time 数据恢复&lt;br/&gt;• 特性: 逻辑日志，追加写，格式(Row/Statement/Mixed)" vertex="1">
+          <mxGeometry height="55" width="380" x="600" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--29" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;2. Slow Query Log (慢查询日志)&lt;/b&gt;&lt;br/&gt;• 作用: 捕获执行超过 long_query_time 阈值的慢 SQL" vertex="1">
+          <mxGeometry height="45" width="380" x="600" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--30" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;3. Error Log (错误日志)&lt;/b&gt;&lt;br/&gt;• 作用: 记录 MySQL 启动、运行、停止过程中的致命错误信息" vertex="1">
+          <mxGeometry height="45" width="380" x="600" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--31" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#1E88E5;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;4. General Log (通用查询日志)&lt;/b&gt;&lt;br/&gt;• 作用: 记录客户端发送的所有 SQL 命令 (默认关闭)" vertex="1">
+          <mxGeometry height="45" width="380" x="600" y="1345" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--32" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontColor=#000000;fontStyle=1;fontSize=12;fontFamily=Comic Sans MS;" value="🐬 InnoDB 存储引擎层日志" vertex="1">
+          <mxGeometry height="35" width="400" x="1020" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--33" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;5. Redo Log (重做日志)&lt;/b&gt;&lt;br/&gt;• 作用: 保证事务【持久性】与 Crash-Safe 崩溃恢复&lt;br/&gt;• 特性: 物理日志(记录数据页修改)，WAL 机制，环形覆盖写" vertex="1">
+          <mxGeometry height="55" width="380" x="600" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--34" parent="1" style="rounded=1;sketch=1;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;fontColor=#000000;align=left;spacingLeft=8;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b&gt;6. Undo Log (回滚日志)&lt;/b&gt;&lt;br/&gt;• 作用: 保证事务【原子性】(ROLLBACK) &amp;amp; 支撑 MVCC 多版本读&lt;br/&gt;• 特性: 逻辑日志(保存相反的逻辑 SQL 操作，如 INSERT 保存 DELETE)" vertex="1">
+          <mxGeometry height="55" width="380" x="600" y="1465" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--35" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#EDBB99;strokeColor=#D35400;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🛡️ 5. InnoDB 锁体系与核心概念深度拆解" vertex="1">
+          <mxGeometry height="45" width="1000" x="2950" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--36" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#D35400;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;🔒 1. 表级锁 vs 行级锁分类&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;共享锁 (S):&lt;/b&gt; 读锁，允许其他事务加 S 锁，阻止加 X 锁&lt;br/&gt;• &lt;b&gt;排他锁 (X):&lt;/b&gt; 写锁，阻止其他事务加任何锁&lt;br/&gt;• &lt;b&gt;意向锁 (IS / IX):&lt;/b&gt; 表级锁，避免全表扫描检查行锁状态&lt;br/&gt;&lt;hr/&gt;&lt;b style=&quot;font-size:13px;color:#D35400;&quot;&gt;🎯 2. 行锁 3 大物理形态 (解决幻读的核心)&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Record Lock (记录锁):&lt;/b&gt; 单独锁住索引项本身&lt;br/&gt;• &lt;b&gt;Gap Lock (间隙锁):&lt;/b&gt; 锁住索引记录之间的开区间 (5, 10)，防止并发 INSERT 插入新记录引发幻读&lt;br/&gt;• &lt;b&gt;Next-Key Lock (临界锁):&lt;/b&gt; Record Lock + Gap Lock，锁住左开右闭区间 (5, 10]，RR 隔离级别下的默认行锁形态！" vertex="1">
+          <mxGeometry height="220" width="1000" x="2950" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--37" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#81ECEC;strokeColor=#00CEC9;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="🔍 6. EXPLAIN 执行计划关键字段深度剖析" vertex="1">
+          <mxGeometry height="45" width="1050" x="600" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--38" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#00CEC9;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#00CEC9;&quot;&gt;🚀 1. type 连接类型 (性能从优到劣)：&lt;/b&gt;&lt;br/&gt;&lt;span style=&quot;color:green;font-weight:bold;&quot;&gt;system &amp;gt; const &amp;gt; eq_ref &amp;gt; ref &amp;gt; range &amp;gt; index &amp;gt; ALL&lt;/span&gt;&lt;br/&gt;• &lt;b&gt;const:&lt;/b&gt; 主键或唯一索引等值查询，仅匹配 1 行&lt;br/&gt;• &lt;b&gt;eq_ref:&lt;/b&gt; 多表 Join 时主键关联&lt;br/&gt;• &lt;b&gt;ref:&lt;/b&gt; 非唯一索引等值扫描&lt;br/&gt;• &lt;b&gt;range:&lt;/b&gt; 索引范围扫描 (IN, BETWEEN, &amp;gt;, &amp;lt;)&lt;br/&gt;• &lt;b&gt;ALL:&lt;/b&gt; 性能最差，全表扫描！&lt;br/&gt;&lt;hr/&gt;&lt;b style=&quot;font-size:13px;color:#00CEC9;&quot;&gt;⚠️ 2. Extra 关键提示标识：&lt;/b&gt;&lt;br/&gt;• &lt;b style=&quot;color:green;&quot;&gt;Using index:&lt;/b&gt; 覆盖索引，无需回表！&lt;br/&gt;• &lt;b style=&quot;color:orange;&quot;&gt;Using index condition:&lt;/b&gt; 索引下推 (ICP) 优化&lt;br/&gt;• &lt;b style=&quot;color:red;&quot;&gt;Using filesort:&lt;/b&gt; 无法利用索引排序，需额外排序&lt;br/&gt;• &lt;b style=&quot;color:red;&quot;&gt;Using temporary:&lt;/b&gt; 使用了临时表 (常见于 GROUP BY)" vertex="1">
+          <mxGeometry height="250" width="1050" x="600" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--39" parent="1" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;html=1;fillColor=#A29BFE;strokeColor=#6C5CE7;fontColor=#000000;fontStyle=1;fontSize=16;fontFamily=Comic Sans MS;" value="📝 7. 索引优化全集：失效场景 + B+Tree 页分裂 + Join 机制" vertex="1">
+          <mxGeometry height="45" width="2150" x="1800" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--40" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#FFEAA7;strokeColor=#F1C40F;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#D63031;&quot;&gt;⚠️ 索引失效典型场景汇总&lt;/b&gt;&lt;br/&gt;1. &lt;b&gt;违反最左前缀法则：&lt;/b&gt;联合索引 (a,b,c) 跳过 a 使用 b/c&lt;br/&gt;2. &lt;b&gt;隐式类型转换：&lt;/b&gt;varchar 字符串列传入 int 值&lt;br/&gt;3. &lt;b&gt;索引列计算/函数：&lt;/b&gt;WHERE YEAR(create_time)=2026&lt;br/&gt;4. &lt;b&gt;范围查询断开后续索引：&lt;/b&gt;a=1 AND b&amp;gt;10 AND c=3 (c不走索引)&lt;br/&gt;5. &lt;b&gt;模糊查询前导通配符：&lt;/b&gt;LIKE &#39;%三&#39;&lt;br/&gt;6. &lt;b&gt;OR 连接未带索引列：&lt;/b&gt;id=1 OR age=18 (age 无索引)&lt;br/&gt;7. &lt;b&gt;两表字符集不一致：&lt;/b&gt;utf8 与 utf8mb4 关联&lt;br/&gt;8. &lt;b&gt;不等于符号使用：&lt;/b&gt;!= 或 &amp;lt;&amp;gt;" vertex="1">
+          <mxGeometry height="250" width="680" x="1800" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--41" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#E8F8F5;strokeColor=#1DD1A1;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#00B894;&quot;&gt;🌳 B+Tree 节点页分裂与合并原理&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;1. 页分裂 (Page Split):&lt;/b&gt;&lt;br/&gt;• 场景：数据页 (默认 16KB) 已装满，插入随机主键 (如 UUID)&lt;br/&gt;• 过程：寻找合适位置 ➔ 申请新数据页 ➔ 移动 50% 数据至新页&lt;br/&gt;• 影响：引发大量随机 I/O、占用额外空间、产生页碎片&lt;br/&gt;&lt;br/&gt;&lt;b&gt;2. 页合并 (Page Merge):&lt;/b&gt;&lt;br/&gt;• 场景：频繁 DELETE 或 UPDATE 导致页利用率低于 50%&lt;br/&gt;• 过程：检查相邻数据页 ➔ 合并碎片数据 ➔ 释放空页" vertex="1">
+          <mxGeometry height="250" width="680" x="2520" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--42" parent="1" style="rounded=1;sketch=1;html=1;hachureGap=4;jiggle=2;curveFitting=1;whiteSpace=wrap;fillColor=#E1BEE7;strokeColor=#8E24AA;fontColor=#000000;align=left;spacingLeft=10;fontSize=11;fontFamily=Comic Sans MS;" value="&lt;b style=&quot;font-size:13px;color:#8E24AA;&quot;&gt;🔗 Join 关联查询底层 3 大执行机制&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;1. Index Nested-Loop Join (INLJ):&lt;/b&gt;&lt;br/&gt;驱动表扫描，被驱动表关联列【有索引】。利用索引查，性能最高！&lt;br/&gt;&lt;br/&gt;&lt;b&gt;2. Block Nested-Loop Join (BNLJ):&lt;/b&gt;&lt;br/&gt;被驱动表关联列【无索引】。驱动表分批拉入 Join Buffer 进行内存比对。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;3. Hash Join:&lt;/b&gt;&lt;br/&gt;MySQL 8.0 引入，用于替代 BNLJ，在内存中构建哈希表匹配数据，效率极大提升！" vertex="1">
+          <mxGeometry height="250" width="710" x="3240" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--43" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#0984E3;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--44" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#F0932B;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--45" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#58B19F;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--46" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#E1B12C;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--47" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#D35400;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--48" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#00CEC9;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--49" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--1" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--50" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--7" style="edgeStyle=none;sketch=1;strokeColor=#FB8C00;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--51" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--20" style="edgeStyle=none;sketch=1;strokeColor=#E74C3C;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--52" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--21" style="edgeStyle=none;sketch=1;strokeColor=#E74C3C;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--53" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--26" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#E1B12C;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--54" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--26" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#E1B12C;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--55" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--27" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--56" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--27" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--57" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--27" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--58" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--27" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#1E88E5;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--59" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--32" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#FB8C00;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--60" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--32" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#FB8C00;endArrow=classic;strokeWidth=1.5;" target="9OhNDfNVqfDzwNlpcM6--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--61" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--39" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--62" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--39" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OhNDfNVqfDzwNlpcM6--63" edge="1" parent="1" source="9OhNDfNVqfDzwNlpcM6--39" style="edgeStyle=orthogonalEdgeStyle;sketch=1;strokeColor=#6C5CE7;endArrow=classic;strokeWidth=2;" target="9OhNDfNVqfDzwNlpcM6--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XZ1X2pJvteHg5hnUtIAx" name="2阶段提交草稿">
+    <mxGraphModel dx="1526" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bVHrEM24T4zIvTMIQXta-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#FFF9C4;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="Server 层 (Server Layer)" vertex="1">
+          <mxGeometry height="170" width="780" x="490" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-21" parent="bVHrEM24T4zIvTMIQXta-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="1. 执行器 (Executor)&#xa;接收 UPDATE SQL" vertex="1">
+          <mxGeometry height="65" width="180" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-22" parent="bVHrEM24T4zIvTMIQXta-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF176;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="Binlog Cache (内存)&#xa;&#xa;6. [2PC阶段二] 写入 Binlog&#xa;并刷盘至 binlog.file" vertex="1">
+          <mxGeometry height="75" width="230" x="510" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-23" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#E8F5E9;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="InnoDB 存储引擎层 (InnoDB Engine)" vertex="1">
+          <mxGeometry height="310" width="780" x="490" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-24" parent="bVHrEM24T4zIvTMIQXta-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#000000;fontStyle=1;align=center;fontFamily=Comic Sans MS;sketch=1;" value="缓冲池 (Buffer Pool - 内存)&#xa;&#xa;2. 查未命中则从磁盘加载 Data Page&#xa;3. 修改前写 Undo Log (旧版本/MVCC)&#xa;4. 更新内存数据 (变 Dirty Page)" vertex="1">
+          <mxGeometry height="130" width="310" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-25" parent="bVHrEM24T4zIvTMIQXta-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#000000;fontStyle=1;align=center;fontFamily=Comic Sans MS;sketch=1;" value="重做日志缓存 (Redo Log Buffer)&#xa;&#xa;5. [2PC阶段一] 写入物理修改日志&#xa;刷盘并标记状态为 Prepare" vertex="1">
+          <mxGeometry height="130" width="280" x="460" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-26" parent="bVHrEM24T4zIvTMIQXta-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#000000;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" value="7. 修改 Redo Log 状态为 Commit&#xa;(事务正式提交完成)" vertex="1">
+          <mxGeometry height="60" width="280" x="460" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#F5F5F5;strokeColor=#000000;fontStyle=1;fontSize=15;fontFamily=Comic Sans MS;sketch=1;jiggle=1.5;" value="磁盘 (Disk Storage)" vertex="1">
+          <mxGeometry height="160" width="780" x="490" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-28" parent="bVHrEM24T4zIvTMIQXta-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="数据文件&#xa;(.ibd)" vertex="1">
+          <mxGeometry height="90" width="130" x="110" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-29" parent="bVHrEM24T4zIvTMIQXta-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFE0B2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="Redo Log 文件&#xa;(redo.log)" vertex="1">
+          <mxGeometry height="90" width="130" x="380" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-30" parent="bVHrEM24T4zIvTMIQXta-27" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFF9C4;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" value="Binlog 文件&#xa;(binlog.000...)" vertex="1">
+          <mxGeometry height="90" width="130" x="610" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-31" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-24" value="调用存储引擎">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-32" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;dashed=1;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-24" value="加载数据页">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-33" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-25" value="写 Redo 物理日志">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-34" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-29" value="刷盘 (Prepare)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-35" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-22" value="准备好后通知 Server">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-36" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-30" value="刷盘">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-37" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-26" value="通知提交">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVHrEM24T4zIvTMIQXta-38" edge="1" parent="1" source="bVHrEM24T4zIvTMIQXta-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;dashed=1;strokeColor=#000000;fontFamily=Comic Sans MS;sketch=1;" target="bVHrEM24T4zIvTMIQXta-28" value="8. 后台异步刷脏页">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3VXDfaMYvEhYg3rnConR" name="第 4 页">
+    <mxGraphModel dx="1526" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-32" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;fontSize=23;fontStyle=1;strokeWidth=2;fillColor=#EAF4FF;strokeColor=#3399FF;align=center;verticalAlign=middle;" value="⚡ UPDATE 执行流程：Buffer Pool + Undo Log + Redo Log + Binlog 两阶段提交（2PC）" vertex="1">
+          <mxGeometry height="65" width="1680" x="305" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-33" parent="1" style="fontFamily=Comic Sans MS;swimlane;horizontal=1;startSize=44;fontSize=20;fontStyle=1;fillColor=#FAFAFA;strokeColor=#222222;strokeWidth=2;" value="Server 层（Server Layer）" vertex="1">
+          <mxGeometry height="230" width="1680" x="305" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-34" parent="1" style="fontFamily=Comic Sans MS;swimlane;horizontal=1;startSize=44;fontSize=20;fontStyle=1;fillColor=#FAFAFA;strokeColor=#222222;strokeWidth=2;" value="InnoDB 存储引擎层（InnoDB Engine）" vertex="1">
+          <mxGeometry height="675" width="1680" x="305" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-35" parent="J6kyO6cuEmu4VF5YoP9b-34" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeWidth=2;fillColor=#EAF8EA;strokeColor=#66AA66;" value="7. COMMIT  Binlog 持久化成功后通知 InnoDB 提交  PREPARED → COMMITTED  事务正式完成" vertex="1">
+          <mxGeometry height="120" width="390" x="640" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-36" edge="1" parent="J6kyO6cuEmu4VF5YoP9b-34" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;exitX=0;exitY=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="J6kyO6cuEmu4VF5YoP9b-35" value="Binlog 成功 → 通知 Commit">
+          <mxGeometry relative="1" x="-0.3766" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1130" y="-135" as="sourcePoint" />
+            <mxPoint x="1030" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-37" parent="J6kyO6cuEmu4VF5YoP9b-34" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;fillColor=#F3ECFF;strokeColor=#9A70D6;" value="Undo Log（回滚 / MVCC）  修改前生成 Undo Record 保存旧版本，例如：name = A  用途① ROLLBACK：回滚时恢复旧版本 用途② MVCC：快照读读取历史版本  执行时先修改内存中的 Undo Page" vertex="1">
+          <mxGeometry height="190" width="390" x="645" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-38" parent="1" style="fontFamily=Comic Sans MS;swimlane;horizontal=1;startSize=44;fontSize=20;fontStyle=1;fillColor=#FAFAFA;strokeColor=#222222;strokeWidth=2;" value="磁盘（Disk Storage）" vertex="1">
+          <mxGeometry height="422.5" width="1680" x="300" y="2032.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-39" parent="J6kyO6cuEmu4VF5YoP9b-38" style="fontFamily=Comic Sans MS;shape=cylinder;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#777777;align=center;verticalAlign=middle;" value="数据文件 .ibd  Page 100 可能仍是旧值 A  Dirty Page 后台异步刷回这里" vertex="1">
+          <mxGeometry height="145" width="310" x="45" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-40" parent="J6kyO6cuEmu4VF5YoP9b-38" style="fontFamily=Comic Sans MS;shape=cylinder;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#F3ECFF;strokeColor=#9A70D6;align=center;verticalAlign=middle;" value="Undo Tablespace  undo_001 / undo_002  Undo Page / Undo Record 最终持久化到这里" vertex="1">
+          <mxGeometry height="145" width="310" x="495" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-41" parent="J6kyO6cuEmu4VF5YoP9b-38" style="fontFamily=Comic Sans MS;shape=cylinder;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#FFF7D6;strokeColor=#D6A900;align=center;verticalAlign=middle;" value="Redo Log File  #ib_redo* / Redo Log 文件  持久化 Redo Record 以及 Prepare / Commit 恢复信息" vertex="1">
+          <mxGeometry height="145" width="310" x="935" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-42" parent="J6kyO6cuEmu4VF5YoP9b-38" style="fontFamily=Comic Sans MS;shape=cylinder;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#FFF7D6;strokeColor=#D6A900;align=center;verticalAlign=middle;" value="Binlog 文件  binlog.000001 ...  逻辑变更事件 主从复制 / PITR" vertex="1">
+          <mxGeometry height="145" width="240" x="1325" y="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-43" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;strokeWidth=2;fillColor=#FFFFFF;strokeColor=#222222;" value="1. Executor（执行器）  接收 UPDATE SQL  UPDATE user SET name = &#39;B&#39; WHERE id = 1" vertex="1">
+          <mxGeometry height="115" width="360" x="395" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-44" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeWidth=2;fillColor=#FFF7D6;strokeColor=#D6A900;" value="6. [2PC 阶段二] Binlog Cache（内存）  写入本事务的 Binlog Event 记录逻辑层面的变更  准备刷入 Binlog 文件" vertex="1">
+          <mxGeometry height="145" width="430" x="1435" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-45" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeWidth=2;fillColor=#FFECEC;strokeColor=#DD7777;" value="2 / 3 / 4. Buffer Pool（内存）  ① 找到目标 Data Page 不在内存 → 从 .ibd 加载  ② 修改内存数据页：name A → B  ③ 变成 Dirty Page 内存 Page 已修改，磁盘 .ibd 仍可能是旧值 A" vertex="1">
+          <mxGeometry height="340" width="510" x="365" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-46" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;fillColor=#FFF7D6;strokeColor=#D6A900;" value="Redo Log Buffer（内存）  记录数据页发生的物理修改 不是直接保存 UPDATE SQL  例如：Page = 100 / Offset = 120 / A → B  用于数据库崩溃恢复" vertex="1">
+          <mxGeometry height="230" width="390" x="1405" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-47" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;fillColor=#EAF4FF;strokeColor=#5599DD;" value="5. [2PC 阶段一] PREPARE  将本事务相关 Redo Log 写入 Redo Log File  刷盘（Flush / fsync）使信息持久化  事务进入 PREPARED 状态" vertex="1">
+          <mxGeometry height="145" width="390" x="1405" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-48" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-43" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" target="J6kyO6cuEmu4VF5YoP9b-45" value="调用存储引擎">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-49" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-45" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;endArrow=block;" target="J6kyO6cuEmu4VF5YoP9b-37" value="修改前生成 Undo Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-50" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-45" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="J6kyO6cuEmu4VF5YoP9b-46" value="记录 Page 的物理修改">
+          <mxGeometry relative="1" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="875" y="1515" />
+              <mxPoint x="915" y="1515" />
+              <mxPoint x="915" y="1435" />
+              <mxPoint x="1405" y="1435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-51" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-46" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;" target="J6kyO6cuEmu4VF5YoP9b-47" value="写入 Redo + Prepare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-52" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-47" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;exitX=0.535;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" target="J6kyO6cuEmu4VF5YoP9b-41" value="刷盘（Flush / fsync）">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1595" y="1995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-53" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-47" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="J6kyO6cuEmu4VF5YoP9b-44" value="Prepare 完成 → 从右侧外围进入 Binlog 阶段">
+          <mxGeometry relative="1" x="0.608" y="-85" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-54" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-44" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="J6kyO6cuEmu4VF5YoP9b-42" value="Binlog Flush / fsync">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-55" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-35" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;curved=1;" target="J6kyO6cuEmu4VF5YoP9b-41" value="Commit 信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="2005" />
+              <mxPoint x="1390" y="2005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-56" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-45" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;" target="J6kyO6cuEmu4VF5YoP9b-39" value="后台异步刷脏页（非 2PC）">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-57" edge="1" parent="1" source="J6kyO6cuEmu4VF5YoP9b-35" style="fontFamily=Comic Sans MS;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;curved=1;" target="J6kyO6cuEmu4VF5YoP9b-40" value="Undo 后续刷盘">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="2005" />
+              <mxPoint x="950" y="2005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6kyO6cuEmu4VF5YoP9b-58" parent="1" style="fontFamily=Comic Sans MS;rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#F8F8F8;strokeColor=#888888;align=left;verticalAlign=middle;spacingLeft=15;" value="关键理解：Dirty Page ≠ 未提交事务  事务 COMMIT 后，Buffer Pool 中的数据页仍可能是 Dirty Page。 后台线程之后才把 Dirty Page 异步刷入 .ibd。  Redo Log 的意义：如果 .ibd 刷盘之前宕机，重启时可以根据已经持久化的 Redo Log 恢复数据页修改。" vertex="1">
+          <mxGeometry height="130" width="650" x="1240" y="2395" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
